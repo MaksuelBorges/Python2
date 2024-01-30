@@ -9,3 +9,4 @@ urlpatterns = [
     path('', views.home),
     path('nome/<str:meunome>', escrever_nome),
 ]
+    
